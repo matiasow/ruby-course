@@ -1,7 +1,3 @@
-!SLIDE subsection
-# Ruby
-
-
 !SLIDE 
 # Ruby is a Programming Language
 
@@ -21,8 +17,7 @@
     @@@ Ruby
     # Method example
     def read(path)
-      return nil unless File.exist?(path)
-      File.read(path)
+      File.read(path) unless File.exist?(path)
     end
     
     # RSpec example

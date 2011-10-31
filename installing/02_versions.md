@@ -18,4 +18,8 @@
 * **1.9.2**
 
 !SLIDE bullets
-# The myth of 2.0
+# Fedora reality
+
+* <strike>1.8.6</strike>
+* **1.8.7**
+* <strike>1.9.2</strike>
