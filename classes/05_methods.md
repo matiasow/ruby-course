@@ -59,13 +59,6 @@
       private   :baz
     end
 
-
-!SLIDE center
-# Visibility explained
-
-### [http://weblog.jamisbuck.org/2007/2/23/method-visibility-in-ruby](http://weblog.jamisbuck.org/2007/2/23/method-visibility-in-ruby)
-
-
 !SLIDE
 # Implicit return
 
@@ -106,7 +99,6 @@
           nil
         end
       end
-      
       def ruby_way
         if @title
           @title.upcase
@@ -202,20 +194,6 @@
     # => "YELLOW"
     var
     # => "YELLOW"
-
-
-!SLIDE
-# bang! (false vs raise)
-
-    @@@ Ruby
-    a = Article.new(:title => nil)
-
-    a.save
-    # => false
-
-    a.save!
-    # => raise ActiveRecord::RecordNotValid
-
 
 !SLIDE
 # question?

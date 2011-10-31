@@ -47,15 +47,3 @@
     Holiday.ancestors
     # => [Holiday, Object, Kernel, BasicObject]
 
-
-!SLIDE
-# `Object` is a `BasicObject`
-
-### in Ruby >= 1.9
-
-    @@@ Ruby
-    Object.ancestors
-    # => [Object, Kernel, BasicObject]
-    
-    BasicObject.ancestors
-    # => [BasicObject]

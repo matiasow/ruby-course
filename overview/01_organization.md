@@ -20,8 +20,12 @@
 !SLIDE bullets
 # Standard Library
 
-* Mostly implemented in Ruby
-* require 'library'
+Mostly implemented in Ruby
+
+    @@@ Ruby
+    require 'net/http'
+    require 'base64'
+    require 'fileutils'
 
 
 !SLIDE bullets
